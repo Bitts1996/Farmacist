@@ -12,7 +12,6 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-@Table(name = "global_register")
 public class Register {
     @JsonProperty(value = "company")
     @Column(name = "company")
